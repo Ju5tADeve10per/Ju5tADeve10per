@@ -12,10 +12,10 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-## Skills
+## :wrench: Skills
 
-## Stats
+## :bar_chart: Stats
 
-## Links
+## :link: Links
 - Personal: Under development
 - Studio: [Insplash](https://studio-insplash.github.io/)

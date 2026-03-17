@@ -13,5 +13,9 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 ## Skills
+
 ## Stats
+
 ## Links
+### Personal
+### Studio

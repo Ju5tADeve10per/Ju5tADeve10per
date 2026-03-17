@@ -18,4 +18,4 @@ Here are some ideas to get you started:
 
 ## Links
 - Personal: Under development
-- Studio: https://studio-insplash.github.io/
+- Studio: [Insplash](https://studio-insplash.github.io/)

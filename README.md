@@ -17,5 +17,5 @@ Here are some ideas to get you started:
 ## Stats
 
 ## Links
-### Personal
-### Studio
+- Personal: Under development
+- Studio: https://studio-insplash.github.io/

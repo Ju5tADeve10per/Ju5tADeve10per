@@ -13,6 +13,13 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 ## :wrench: Skills
+<img src="assets/icons/c.svg" height="40" />
+<img src="assets/icons/cplusplus.svg" height="40" />
+<img src="assets/icons/css3.svg" height="40" />
+<img src="assets/icons/html5.svg" height="40" />
+<img src="assets/icons/javascript.svg" height="40" />
+<img src="assets/icons/json.svg" height="40" />
+<img src="assets/icons/python.svg" height="40" />
 
 ## :bar_chart: Stats
 

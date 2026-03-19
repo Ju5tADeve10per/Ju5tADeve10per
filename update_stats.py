@@ -20,7 +20,34 @@ for repo in repos:
         total_bytes += bytes_count
 
 
-print("repos:", repo_count)
-print("stars:", stars)
-print("languages:", list(languages))
-print("total bytes:", total_bytes)
+#--- Overwrite README.md ---
+stats_text = f"""
+    - Repositories: {repo_count}
+    - Stars: {stars}
+    - Languages: {", ".join(list(languages))}
+    - Total Code Size: {total_bytes} bytes
+"""
+
+# Load README.md
+with open("README.md", "r", encoding="utf-8") as f:
+    content = f.read()
+
+# Process README.md
+start_tag = "<!-- STATS_START -->"
+end_tag = "<!-- STATS_END -->"
+
+before = content.split(start_tag)[0]
+after = content.split(end_tag)[1]
+
+# Build a new content
+new_content = (
+    before
+    + start_tag
+    + stats_text
+    + end_tag
+    + after
+)
+
+# Save a new content
+with open("README.md", "w", encoding="utf-8") as f:
+    f.write(new_content)

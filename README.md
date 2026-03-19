@@ -15,10 +15,10 @@
 # :bar_chart: Stats
 <!-- STATS_START -->
 <ul>
-    <li>Repositories: 4</li>
-    <li>Stars: 0</li>
-    <li>Languages: Python, C++</li>
-    <li>Total Code Size: 11393 bytes</li>
+    <li>🧩 Repositories: 4</li>
+    <li>⭐ Stars: 0</li>
+    <li>⚙️ Languages: Python, C++</li>
+    <li>🌱 Total Code Size: 11423 bytes</li>
 </ul>
 <!-- STATS_END -->
 

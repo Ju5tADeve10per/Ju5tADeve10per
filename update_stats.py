@@ -22,10 +22,12 @@ for repo in repos:
 
 #--- Overwrite README.md ---
 stats_text = f"""
-    - Repositories: {repo_count}
-    - Stars: {stars}
-    - Languages: {", ".join(list(languages))}
-    - Total Code Size: {total_bytes} bytes
+<p>
+    <strong>- Repositories:</strong> {repo_count}<br>
+    <strong>- Stars:</strong> {stars}<br>
+    <strong>- Languages:</strong> {", ".join(list(languages))}<br>
+    <strong>- Total Code Size:</strong> {total_bytes} bytes<br>
+</p>
 """
 
 # Load README.md

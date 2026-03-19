@@ -14,12 +14,12 @@
 
 # :bar_chart: Stats
 <!-- STATS_START -->
-<p>
-    - Repositories: 4
-    - Stars: 0
-    - Languages: Python, C++
-    - Total Code Size: 11429 bytes
-</p>
+<ul>
+    <li>Repositories: 4</li>
+    <li>Stars: 0</li>
+    <li>Languages: Python, C++</li>
+    <li>Total Code Size: 11393 bytes</li>
+</ul>
 <!-- STATS_END -->
 
 # :link: Links

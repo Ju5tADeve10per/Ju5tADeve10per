@@ -25,11 +25,11 @@ Here are some ideas to get you started:
 
 # :bar_chart: Stats
 <!-- STATS_START -->
-<p style="font-size: 48px;">
-    <strong>- Repositories:</strong> 4<br>
-    <strong>- Stars:</strong> 0<br>
-    <strong>- Languages:</strong> C++, Python<br>
-    <strong>- Total Code Size:</strong> 11502 bytes<br>
+<p>
+    <h4>- Repositories: 4</h4>
+    <h4>- Stars: 0</h4>
+    <h4>- Languages: Python, C++</h4>
+    <h4>- Total Code Size: 11502 bytes</h4>
 </p>
 <!-- STATS_END -->
 

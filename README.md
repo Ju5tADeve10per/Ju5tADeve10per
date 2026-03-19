@@ -12,7 +12,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-## :wrench: Skills
+# :wrench: Skills
 <p>
     <img src="assets/icons/c.svg" height="40" />
     <img src="assets/icons/cplusplus.svg" height="40" />
@@ -23,7 +23,7 @@ Here are some ideas to get you started:
     <img src="assets/icons/python.svg" height="40" />
 </p>
 
-## :bar_chart: Stats
+# :bar_chart: Stats
 <!-- STATS_START -->
     - Repositories: 4
     - Stars: 0
@@ -31,6 +31,6 @@ Here are some ideas to get you started:
     - Total Code Size: 10851 bytes
 <!-- STATS_END -->
 
-## :link: Links
+# :link: Links
 - Personal: Under development
 - Studio: [Insplash](https://studio-insplash.github.io/)

@@ -25,10 +25,12 @@ Here are some ideas to get you started:
 
 # :bar_chart: Stats
 <!-- STATS_START -->
-    - Repositories: 4
-    - Stars: 0
-    - Languages: C++, Python
-    - Total Code Size: 10851 bytes
+<p>
+    <strong>- Repositories:</strong> 4<br>
+    <strong>- Stars:</strong> 0<br>
+    <strong>- Languages:</strong> C++, Python<br>
+    <strong>- Total Code Size:</strong> 11384 bytes<br>
+</p>
 <!-- STATS_END -->
 
 # :link: Links

@@ -1,5 +1,16 @@
 import requests
 
+# Org
+import json
+org_name = "Studio-Insplash"
+url = f"https://api.github.com/orgs/{org_name}/repos"
+repos = requests.get(url).json()
+
+print(json.dumps(repos, indent=2))
+
+
+
+# Personal
 username = "Ju5tADeve10per"
 
 url = f"https://api.github.com/users/{username}/repos"

@@ -14,8 +14,7 @@
 
 # :bar_chart: Stats
 <!-- STATS_START -->
-### Organisation
-**Includes collaborative projects**
+### Organisation <sub>(Includes collaborative projects)</sub>
 
 <ul>
     <li>🧩 Repositories: 2</li>

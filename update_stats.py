@@ -35,8 +35,7 @@ def fetch_github_stats(account_type):
 #--- Overwrite README.md ---
 # Organisation
 org_section_text = f"""
-### Organisation
-**Includes collaborative projects**
+### Organisation <sub>(Includes collaborative projects)</sub>
 """
 org_stats = fetch_github_stats("org")
 org_stats_text = f"""

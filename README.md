@@ -14,11 +14,23 @@
 
 # :bar_chart: Stats
 <!-- STATS_START -->
+### Organisation
+**Includes collaborative projects**
+
+<ul>
+    <li>🧩 Repositories: 2</li>
+    <li>⭐ Stars: 0</li>
+    <li>⚙️ Languages: CSS, HTML, JavaScript</li>
+    <li>🌱 Total Code Size: 27641 bytes</li>
+</ul>
+
+### Personal
+
 <ul>
     <li>🧩 Repositories: 4</li>
     <li>⭐ Stars: 0</li>
-    <li>⚙️ Languages: Python, C++</li>
-    <li>🌱 Total Code Size: 11444 bytes</li>
+    <li>⚙️ Languages: C++, Python</li>
+    <li>🌱 Total Code Size: 11628 bytes</li>
 </ul>
 <!-- STATS_END -->
 

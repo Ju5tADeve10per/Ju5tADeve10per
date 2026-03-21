@@ -1,43 +1,63 @@
 import requests
 
-# Org
-import json
-org_name = "Studio-Insplash"
-url = f"https://api.github.com/orgs/{org_name}/repos"
-repos = requests.get(url).json()
+def fetch_github_stats(account_type):
+    if account_type == "org":
+        org_name = "Studio-Insplash"
+        url = f"https://api.github.com/orgs/{org_name}/repos"
+    elif account_type == "user":
+        username = "Ju5tADeve10per"
+        url = f"https://api.github.com/users/{username}/repos"
+    else:
+        raise ValueError("invalid account_type")
 
-print(json.dumps(repos, indent=2))
+    repos = requests.get(url).json()
+    repo_count = len(repos)
+    stars = 0
+    total_bytes = 0
+    languages = set()
 
-
-
-# Personal
-username = "Ju5tADeve10per"
-
-url = f"https://api.github.com/users/{username}/repos"
-repos = requests.get(url).json()
-
-repo_count = len(repos)
-stars = 0
-total_bytes = 0
-languages = set()
-
-for repo in repos:
-    stars += repo["stargazers_count"]
-
-    # Retrieve lang data and num of bytes
-    langs = requests.get(repo["languages_url"]).json()
-    for lang, bytes_count in langs.items():
-        languages.add(lang)
-        total_bytes += bytes_count
+    for repo in repos:
+        stars += repo["stargazers_count"]
+        # Retrieve languages and number of bytes
+        langs = requests.get(repo["languages_url"]).json()
+        for lang, bytes_count in langs.items():
+            languages.add(lang)
+            total_bytes += bytes_count
+    
+    return {
+        "repos": repo_count,
+        "stars": stars,
+        "languages": languages,
+        "bytes": total_bytes
+    }
 
 
 #--- Overwrite README.md ---
-stats_text = f"""
+# Organisation
+org_section_text = f"""
+### Organisation
+**Includes collaborative projects**
+"""
+org_stats = fetch_github_stats("org")
+org_stats_text = f"""
 <ul>
-    <li>🧩 Repositories: {repo_count}</li>
-    <li>⭐ Stars: {stars}</li>
-    <li>⚙️ Languages: {", ".join(list(languages))}</li>
-    <li>🌱 Total Code Size: {total_bytes} bytes</li>
+    <li>🧩 Repositories: {org_stats["repos"]}</li>
+    <li>⭐ Stars: {org_stats["stars"]}</li>
+    <li>⚙️ Languages: {", ".join(sorted(org_stats["languages"]))}</li>
+    <li>🌱 Total Code Size: {org_stats["bytes"]} bytes</li>
+</ul>
+"""
+# Personal
+user_section_text = f"""
+### Personal
+"""
+user_stats = fetch_github_stats("user")
+user_stats_text = f"""
+<ul>
+    <li>🧩 Repositories: {user_stats["repos"]}</li>
+    <li>⭐ Stars: {user_stats["stars"]}</li>
+    <li>⚙️ Languages: {", ".join(sorted(user_stats["languages"]))}</li>
+    <li>🌱 Total Code Size: {user_stats["bytes"]} bytes</li>
 </ul>
 """
 
@@ -56,7 +76,10 @@ after = content.split(end_tag)[1]
 new_content = (
     before
     + start_tag
-    + stats_text
+    + org_section_text
+    + org_stats_text
+    + user_section_text
+    + user_stats_text
     + end_tag
     + after
 )

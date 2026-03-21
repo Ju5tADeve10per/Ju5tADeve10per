@@ -36,7 +36,7 @@ def fetch_github_stats(account_type):
 # Organisation
 org_section_text = f"""
 ### Organisation 
-<sub>Includes collaborative projects</sub>
+*Includes collaborative projects*
 """
 org_stats = fetch_github_stats("org")
 org_stats_text = f"""

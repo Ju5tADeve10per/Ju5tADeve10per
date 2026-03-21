@@ -44,7 +44,7 @@ org_stats_text = f"""
     <li>🧩 Repositories: {org_stats["repos"]}</li>
     <li>⭐ Stars: {org_stats["stars"]}</li>
     <li>⚙️ Languages: {", ".join(sorted(org_stats["languages"]))}</li>
-    <li>🌱 Total Code Size: {org_stats["bytes"]} bytes</li>
+    <li>🌱 Total Code Size: {org_stats["bytes"] / 1000:.1f} KB</li>
 </ul>
 """
 # Personal
@@ -57,7 +57,7 @@ user_stats_text = f"""
     <li>🧩 Repositories: {user_stats["repos"]}</li>
     <li>⭐ Stars: {user_stats["stars"]}</li>
     <li>⚙️ Languages: {", ".join(sorted(user_stats["languages"]))}</li>
-    <li>🌱 Total Code Size: {user_stats["bytes"]} bytes</li>
+    <li>🌱 Total Code Size: {user_stats["bytes"] / 1000:.1f} KB</li>
 </ul>
 """
 

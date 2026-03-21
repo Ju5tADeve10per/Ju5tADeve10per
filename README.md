@@ -14,7 +14,8 @@
 
 # :bar_chart: Stats
 <!-- STATS_START -->
-### Organisation <sub>(Includes collaborative projects)</sub>
+### Organisation 
+<sub>Includes collaborative projects</sub>
 
 <ul>
     <li>🧩 Repositories: 2</li>
@@ -29,7 +30,7 @@
     <li>🧩 Repositories: 4</li>
     <li>⭐ Stars: 0</li>
     <li>⚙️ Languages: C++, Python</li>
-    <li>🌱 Total Code Size: 12.5 KB</li>
+    <li>🌱 Total Code Size: 12.6 KB</li>
 </ul>
 <!-- STATS_END -->
 

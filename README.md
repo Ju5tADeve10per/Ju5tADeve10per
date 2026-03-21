@@ -21,7 +21,7 @@
     <li>🧩 Repositories: 2</li>
     <li>⭐ Stars: 0</li>
     <li>⚙️ Languages: CSS, HTML, JavaScript</li>
-    <li>🌱 Total Code Size: 27641 bytes</li>
+    <li>🌱 Total Code Size: 27.6 KB</li>
 </ul>
 
 ### Personal
@@ -30,7 +30,7 @@
     <li>🧩 Repositories: 4</li>
     <li>⭐ Stars: 0</li>
     <li>⚙️ Languages: C++, Python</li>
-    <li>🌱 Total Code Size: 11628 bytes</li>
+    <li>🌱 Total Code Size: 12.5 KB</li>
 </ul>
 <!-- STATS_END -->
 

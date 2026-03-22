@@ -20,7 +20,7 @@
 <ul>
     <li>🧩 Repositories: 2</li>
     <li>⭐ Stars: 0</li>
-    <li>⚙️ Languages: CSS, HTML, JavaScript</li>
+    <li>⚙️ Languages: CSS: 62.0%<br>HTML: 34.0%<br>JavaScript: 4.1%<br></li>
     <li>🌱 Total Code Size: 27.6 KB</li>
 </ul>
 
@@ -29,7 +29,7 @@
 <ul>
     <li>🧩 Repositories: 4</li>
     <li>⭐ Stars: 0</li>
-    <li>⚙️ Languages: C++, Python</li>
+    <li>⚙️ Languages: C++: 41.5%<br>Python: 58.5%<br></li>
     <li>🌱 Total Code Size: 12.6 KB</li>
 </ul>
 <!-- STATS_END -->

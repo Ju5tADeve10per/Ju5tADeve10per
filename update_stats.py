@@ -31,6 +31,13 @@ def fetch_github_stats(account_type):
         "bytes": total_bytes
     }
 
+def render_language_stats(stats):
+    total_bytes = stats["bytes"]
+    language_lines = ""
+    for lang, bytes_count in stats["languages"].items():
+        pct = bytes_count / total_bytes * 100
+        language_lines += f"{lang}: {pct:.1f}%<br>"
+    return language_lines
 
 #--- Overwrite README.md ---
 # Organisation
@@ -39,11 +46,14 @@ org_section_text = f"""
 *Includes collaborative projects*
 """
 org_stats = fetch_github_stats("org")
+# Make languages text
+language_lines = render_language_stats(org_stats)
+# Make organisation stats text
 org_stats_text = f"""
 <ul>
     <li>🧩 Repositories: {org_stats["repos"]}</li>
     <li>⭐ Stars: {org_stats["stars"]}</li>
-    <li>⚙️ Languages: {", ".join(sorted(org_stats["languages"]))}</li>
+    <li>⚙️ Languages: {language_lines}</li>
     <li>🌱 Total Code Size: {org_stats["bytes"] / 1000:.1f} KB</li>
 </ul>
 """
@@ -52,11 +62,14 @@ user_section_text = f"""
 ### Personal
 """
 user_stats = fetch_github_stats("user")
+# Make languages text
+language_lines = render_language_stats(user_stats)
+# Make user stats text
 user_stats_text = f"""
 <ul>
     <li>🧩 Repositories: {user_stats["repos"]}</li>
     <li>⭐ Stars: {user_stats["stars"]}</li>
-    <li>⚙️ Languages: {", ".join(sorted(user_stats["languages"]))}</li>
+    <li>⚙️ Languages: {language_lines}</li>
     <li>🌱 Total Code Size: {user_stats["bytes"] / 1000:.1f} KB</li>
 </ul>
 """

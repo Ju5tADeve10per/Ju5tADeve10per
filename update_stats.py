@@ -14,14 +14,14 @@ def fetch_github_stats(account_type):
     repo_count = len(repos)
     stars = 0
     total_bytes = 0
-    languages = set()
+    languages = dict()
 
     for repo in repos:
         stars += repo["stargazers_count"]
         # Retrieve languages and number of bytes
         langs = requests.get(repo["languages_url"]).json()
         for lang, bytes_count in langs.items():
-            languages.add(lang)
+            languages[lang] = languages.get(lang, 0) + bytes_count
             total_bytes += bytes_count
     
     return {

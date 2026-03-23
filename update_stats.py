@@ -37,6 +37,8 @@ def render_language_stats(stats):
     for lang, bytes_count in stats["languages"].items():
         pct = bytes_count / total_bytes * 100
         bar_length = int(pct / 100 * 20)
+        if pct > 0 and bar_length == 0:
+            bar_length = 1
         bar = "█" * bar_length
         language_lines += f"{lang}: {bar} {pct:.1f}%<br>"
     return language_lines

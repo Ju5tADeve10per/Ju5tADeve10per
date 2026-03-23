@@ -58,7 +58,7 @@ org_stats_text = f"""
 <ul>
     <li>🧩 Repositories: {org_stats["repos"]}</li>
     <li>⭐ Stars: {org_stats["stars"]}</li>
-    <li>⚙️ Languages:<br><br><pre>{language_lines}</pre></li>
+    <li>⚙️ Languages:<br><pre>{language_lines}</pre></li>
     <li>🌱 Total Code Size: {org_stats["bytes"] / 1000:.1f} KB</li>
 </ul>
 """

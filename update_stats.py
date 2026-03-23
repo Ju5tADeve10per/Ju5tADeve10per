@@ -36,7 +36,9 @@ def render_language_stats(stats):
     language_lines = ""
     for lang, bytes_count in stats["languages"].items():
         pct = bytes_count / total_bytes * 100
-        language_lines += f"{lang}: {pct:.1f}%<br>"
+        bar_length = int(pct / 100 * 20)
+        bar = "█" * bar_length
+        language_lines += f"{lang}: {bar} {pct:.1f}%<br>"
     return language_lines
 
 #--- Overwrite README.md ---

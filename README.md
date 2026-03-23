@@ -20,7 +20,7 @@
 <ul>
     <li>🧩 Repositories: 2</li>
     <li>⭐ Stars: 0</li>
-    <li>⚙️ Languages:<br>CSS: 62.0%<br>HTML: 34.0%<br>JavaScript: 4.1%<br></li>
+    <li>⚙️ Languages:<br>CSS: ████████████ 62.0%<br>HTML: ██████ 34.0%<br>JavaScript:  4.1%<br></li>
     <li>🌱 Total Code Size: 27.6 KB</li>
 </ul>
 
@@ -29,7 +29,7 @@
 <ul>
     <li>🧩 Repositories: 4</li>
     <li>⭐ Stars: 0</li>
-    <li>⚙️ Languages:<br>C++: 40.2%<br>Python: 59.8%<br></li>
+    <li>⚙️ Languages:<br>C++: ████████ 40.2%<br>Python: ███████████ 59.8%<br></li>
     <li>🌱 Total Code Size: 13.0 KB</li>
 </ul>
 <!-- STATS_END -->

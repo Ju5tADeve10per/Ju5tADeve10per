@@ -18,13 +18,13 @@
 *Includes collaborative projects*
 
 <ul>
-    <li>🧩 Repositories: 2</li>
+    <li>🧩 Repositories: 3</li>
     <li>⭐ Stars: 0</li>
-    <li>⚙️ Languages:<br><pre>CSS       : ███████████ 55.3%
-HTML      : ██████ 32.4%
-JavaScript: ██ 12.3%
+    <li>⚙️ Languages:<br><pre>CSS       : ██████████ 52.7%
+HTML      : ██████ 32.3%
+JavaScript: ██ 14.9%
 </pre></li>
-    <li>🌱 Total Code Size: 32.6 KB</li>
+    <li>🌱 Total Code Size: 35.1 KB</li>
 </ul>
 
 ### Personal

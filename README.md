@@ -20,11 +20,11 @@
 <ul>
     <li>🧩 Repositories: 3</li>
     <li>⭐ Stars: 0</li>
-    <li>⚙️ Languages:<br><pre>CSS       : ██████████ 52.4%
-HTML      : ██████ 32.8%
-JavaScript: ██ 14.8%
+    <li>⚙️ Languages:<br><pre>CSS       : ██████████ 52.7%
+HTML      : ██████ 32.6%
+JavaScript: ██ 14.7%
 </pre></li>
-    <li>🌱 Total Code Size: 35.9 KB</li>
+    <li>🌱 Total Code Size: 36.2 KB</li>
 </ul>
 
 ### Personal

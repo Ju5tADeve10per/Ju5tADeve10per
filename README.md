@@ -32,10 +32,10 @@ JavaScript: ██ 13.3%
 <ul>
     <li>🧩 Repositories: 4</li>
     <li>⭐ Stars: 0</li>
-    <li>⚙️ Languages:<br><pre>C++   : ███████ 36.4%
-Python: ████████████ 63.6%
+    <li>⚙️ Languages:<br><pre>C++   : ███████ 35.9%
+Python: ████████████ 64.1%
 </pre></li>
-    <li>🌱 Total Code Size: 14.3 KB</li>
+    <li>🌱 Total Code Size: 14.5 KB</li>
 </ul>
 <!-- STATS_END -->
 

@@ -32,7 +32,11 @@ def fetch_github_stats(account_type: str) -> dict:
         stars += repo["stargazers_count"]
         # Retrieve languages and number of bytes
         langs = requests.get(repo["languages_url"]).json()
+        print(langs.items()) # debug
         for lang, bytes_count in langs.items():
+            if not isinstance(bytes_count, int):
+                print("skip invalid:", lang, bytes_count, isinstance(bytes_count, int))
+                continue
             languages[lang] = languages.get(lang, 0) + bytes_count
             total_bytes += bytes_count
     
